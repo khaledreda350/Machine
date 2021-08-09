@@ -3,9 +3,13 @@ HackTheBox Previse Walkthrough
 ![privese](https://user-images.githubusercontent.com/67886668/128668035-e6d8c71e-04eb-408e-97a7-0ab497b90ab7.PNG)
 
 summary:
+
 1- Scanning
+
 2- Enumeration
+
 3- Exploitation
+
 4- Privilege Escalation
 
 1-Scanning
