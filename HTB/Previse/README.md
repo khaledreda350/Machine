@@ -13,12 +13,15 @@ summary:
 4- Privilege Escalation
 
 1-Scanning
+
 port scanning:
 
 ![nmap](https://user-images.githubusercontent.com/67886668/128668136-b281f9c8-7024-42b2-ab80-b914b7154b68.PNG)
 
 after using nmap we found 2 open ports: ssh and http and it is not have anything interesting.
+
 2-Enumeration
+
 Gobuster : 
 
 ![gobuster](https://user-images.githubusercontent.com/67886668/128668184-5c5d52ba-9dcc-465c-a166-75888ddc9a52.PNG)
@@ -34,6 +37,7 @@ so i’m started burp and found this response
 After searching for a while about 302 found i knew i can edit responses using burp suite  to bypass this so i changed 302 found to 200 OK and changed the location.
 HINT:to change location file look to request to know what php file you need ;).
 it is work :)
+
 3-Exploitation
 
 ![add user](https://user-images.githubusercontent.com/67886668/128668323-78d2b7d2-ff9e-48f3-b4e0-889d3e096a4d.PNG)
